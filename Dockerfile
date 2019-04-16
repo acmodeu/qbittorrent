@@ -7,7 +7,7 @@ RUN apt-get clean
 
 VOLUME [ "/data" , "/qbconfig" ]
 
-EXPOSE 9091 60007 60007/udp
+#EXPOSE 9091 60007 60007/udp
 
 ENV PUID=1000 PGID=1000
 
