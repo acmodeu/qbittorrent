@@ -10,7 +10,7 @@ RUN apk add --no-cache qbittorrent-nox su-exec
 
 VOLUME [ "/data" , "/qbconfig" ]
 
-EXPOSE 8080 60007 60007/udp
+#EXPOSE 8080 60007 60007/udp
 
 ENV PUID=1000 PGID=1000
 
